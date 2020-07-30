@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.example</groupId>
-	<artifactId>demo</artifactId>
+	<artifactId>SpringBootApp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
@@ -55,6 +55,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>SpringBootApp</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
